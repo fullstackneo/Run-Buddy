@@ -116,7 +116,8 @@ footer a {
 .hero-form button {
   width: 150px;
   height: 40px;
-  border:0px;
+  /* border:0px; */
+  border:none;
   background-color: #024e76;
   font-size: 16px;
   color:#fce138;
