@@ -1,4 +1,4 @@
-# Run Buddy, Incd
+# Run Buddy, Inc
 
 ## Purpose
 A website that offers fitness training services. 
