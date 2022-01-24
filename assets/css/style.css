@@ -36,14 +36,18 @@ header nav {
   margin: 7px 0;
 }
 
-header nav ul li {
-  display: inline;
-}
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
 
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 
@@ -55,7 +59,9 @@ section {
 
 /* Hero Style Start */
 .hero {
-  position:relative;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
   background-image: url("../images/hero-bg.jpg");
   height: 600px;
   background-size: cover;
@@ -64,28 +70,26 @@ section {
 /* Hero Style End */
 
 .hero-text{
-  position:absolute;
-  width: 500px;
+  width: 35%;
+  margin: 3.5%;
   height: 150px;
-  top:70px;
-  right:730px;
   text-align: right;
   color:#ffffff;
+  font-size: 18px;
+  line-height: 1.3;
 }
 
 .hero-text h2{
   color:#fce138;
-  font-size: 30px;
+  font-size: 55px;
   font-style:italic;
 }
 
 
 
 .hero-form{
-  position: absolute;
-  right:140px;
-  bottom:120px;
-  width: 500px;
+  width: 40%;
+  margin:3.5%;
   padding: 20px;
   background-color: #fce138;
   border:3px solid #024e76;
@@ -287,6 +291,9 @@ section {
 
 /* Footer Style Start */
 footer{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
   width:100%;
   padding:40px 35px;
   background-color: #024e76;
@@ -294,13 +301,12 @@ footer{
 }
 
 footer h2 {
-  display: inline;
+
   font-size: 30px;
   margin: 0;
 }
 
 footer div {
-  float: right;
   line-height: 1.5;
   text-align: right;
 }
