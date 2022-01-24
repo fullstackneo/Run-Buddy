@@ -26,7 +26,7 @@ header h1 {
 }
 
 header a {
-   text-decoration: none;
+  text-decoration: none;
   color: #fce138;
 }
 
@@ -45,28 +45,7 @@ header nav ul li a {
   font-size: 22px;
 }
 
-footer{
-    width:100%;
-    padding:40px 35px;
-    background-color: #fce138;
-}
 
-footer h2 {
-  display: inline;
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
-
-footer div {
-  float: right;
-  line-height: 1.5;
-  text-align: right;
-}
-
-footer a {
-  color: #024e76;
-}
 
 section {
   padding: 60px;
@@ -111,6 +90,7 @@ section {
   border:3px solid #024e76;
   color: #024e76;
 }
+
 
 
 .hero-form h3 {
@@ -252,6 +232,7 @@ section {
 .contact {
   background-color: #024e76;
   text-align: center;
+  height: 540px;
 }
 
 
@@ -261,7 +242,14 @@ section {
 }
 
 
-.contact-info h3{
+.contact-info{
+  float:left;
+  text-align: left;
+  color:#ffffff;
+  margin: 20px 0 0 20px;
+}
+
+.contact h3{
   font-size: 32px;
   color:#fce138;
 }
@@ -277,16 +265,49 @@ section {
 }
 
 
-.contact-info .map {
-  width: 400px;
-  height: 400px;
+
+.contact-form{
+  float:left;
+  margin-left:200px;
+  width: 300px;
+  height: 150px;
+  text-align: left;
 }
 
-.contact-info div{
-  display: inline-block;
-  text-align: left;
-  color:#ffffff;
-  vertical-align: top;
-  margin: 30px 0 0 60px;
+.contact iframe{
+  float: right; 
+  width: 500px;
+  height: 250px;
+  background-color: #fff;
 }
+
+
+
+
+/* Footer Style Start */
+footer{
+  width:100%;
+  padding:40px 35px;
+  background-color: #024e76;
+  color: #fce138;
+}
+
+footer h2 {
+  display: inline;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #fce138;
+}
+
+/* Footer Style End */
+
 /* REACH OUT STYLES END */
